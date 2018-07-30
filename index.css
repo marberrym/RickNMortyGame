@@ -1,0 +1,29 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: purple;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.Playable{
+    left: 200px;
+}
+
+.mainimage {
+    height: 200px;
+    transform: translateX(300px);
+}
+
+.flexcontainer {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
